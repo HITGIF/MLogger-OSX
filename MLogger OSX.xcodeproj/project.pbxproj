@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		629ECAAB1EF7858100131144 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629ECAAA1EF7858100131144 /* AppDelegate.swift */; };
+		629ECAAD1EF7858100131144 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629ECAAC1EF7858100131144 /* ViewController.swift */; };
+		629ECAAF1EF7858100131144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629ECAAE1EF7858100131144 /* Assets.xcassets */; };
+		629ECAB21EF7858100131144 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629ECAB01EF7858100131144 /* Main.storyboard */; };
+		629ECABD1EF7858100131144 /* MLogger_OSXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629ECABC1EF7858100131144 /* MLogger_OSXTests.swift */; };
+		629ECAC81EF7858100131144 /* MLogger_OSXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629ECAC71EF7858100131144 /* MLogger_OSXUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		629ECAB91EF7858100131144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629ECA9F1EF7858100131144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 629ECAA61EF7858100131144;
+			remoteInfo = "MLogger OSX";
+		};
+		629ECAC41EF7858100131144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629ECA9F1EF7858100131144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 629ECAA61EF7858100131144;
+			remoteInfo = "MLogger OSX";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		629ECAA71EF7858100131144 /* MLogger OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MLogger OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629ECAAA1EF7858100131144 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		629ECAAC1EF7858100131144 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		629ECAAE1EF7858100131144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		629ECAB11EF7858100131144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		629ECAB31EF7858100131144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629ECAB81EF7858100131144 /* MLogger OSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MLogger OSXTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629ECABC1EF7858100131144 /* MLogger_OSXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLogger_OSXTests.swift; sourceTree = "<group>"; };
+		629ECABE1EF7858100131144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629ECAC31EF7858100131144 /* MLogger OSXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MLogger OSXUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		629ECAC71EF7858100131144 /* MLogger_OSXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLogger_OSXUITests.swift; sourceTree = "<group>"; };
+		629ECAC91EF7858100131144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		629ECAA41EF7858100131144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629ECAB51EF7858100131144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629ECAC01EF7858100131144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629ECA9E1EF7858100131144 = {
+			isa = PBXGroup;
+			children = (
+				629ECAA91EF7858100131144 /* MLogger OSX */,
+				629ECABB1EF7858100131144 /* MLogger OSXTests */,
+				629ECAC61EF7858100131144 /* MLogger OSXUITests */,
+				629ECAA81EF7858100131144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		629ECAA81EF7858100131144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				629ECAA71EF7858100131144 /* MLogger OSX.app */,
+				629ECAB81EF7858100131144 /* MLogger OSXTests.xctest */,
+				629ECAC31EF7858100131144 /* MLogger OSXUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		629ECAA91EF7858100131144 /* MLogger OSX */ = {
+			isa = PBXGroup;
+			children = (
+				629ECAAA1EF7858100131144 /* AppDelegate.swift */,
+				629ECAAC1EF7858100131144 /* ViewController.swift */,
+				629ECAAE1EF7858100131144 /* Assets.xcassets */,
+				629ECAB01EF7858100131144 /* Main.storyboard */,
+				629ECAB31EF7858100131144 /* Info.plist */,
+			);
+			path = "MLogger OSX";
+			sourceTree = "<group>";
+		};
+		629ECABB1EF7858100131144 /* MLogger OSXTests */ = {
+			isa = PBXGroup;
+			children = (
+				629ECABC1EF7858100131144 /* MLogger_OSXTests.swift */,
+				629ECABE1EF7858100131144 /* Info.plist */,
+			);
+			path = "MLogger OSXTests";
+			sourceTree = "<group>";
+		};
+		629ECAC61EF7858100131144 /* MLogger OSXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				629ECAC71EF7858100131144 /* MLogger_OSXUITests.swift */,
+				629ECAC91EF7858100131144 /* Info.plist */,
+			);
+			path = "MLogger OSXUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		629ECAA61EF7858100131144 /* MLogger OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629ECACC1EF7858100131144 /* Build configuration list for PBXNativeTarget "MLogger OSX" */;
+			buildPhases = (
+				629ECAA31EF7858100131144 /* Sources */,
+				629ECAA41EF7858100131144 /* Frameworks */,
+				629ECAA51EF7858100131144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MLogger OSX";
+			productName = "MLogger OSX";
+			productReference = 629ECAA71EF7858100131144 /* MLogger OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		629ECAB71EF7858100131144 /* MLogger OSXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629ECACF1EF7858100131144 /* Build configuration list for PBXNativeTarget "MLogger OSXTests" */;
+			buildPhases = (
+				629ECAB41EF7858100131144 /* Sources */,
+				629ECAB51EF7858100131144 /* Frameworks */,
+				629ECAB61EF7858100131144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629ECABA1EF7858100131144 /* PBXTargetDependency */,
+			);
+			name = "MLogger OSXTests";
+			productName = "MLogger OSXTests";
+			productReference = 629ECAB81EF7858100131144 /* MLogger OSXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		629ECAC21EF7858100131144 /* MLogger OSXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629ECAD21EF7858100131144 /* Build configuration list for PBXNativeTarget "MLogger OSXUITests" */;
+			buildPhases = (
+				629ECABF1EF7858100131144 /* Sources */,
+				629ECAC01EF7858100131144 /* Frameworks */,
+				629ECAC11EF7858100131144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629ECAC51EF7858100131144 /* PBXTargetDependency */,
+			);
+			name = "MLogger OSXUITests";
+			productName = "MLogger OSXUITests";
+			productReference = 629ECAC31EF7858100131144 /* MLogger OSXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629ECA9F1EF7858100131144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = CarbonylGroup;
+				TargetAttributes = {
+					629ECAA61EF7858100131144 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TF8Z26XE78;
+						ProvisioningStyle = Automatic;
+					};
+					629ECAB71EF7858100131144 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TF8Z26XE78;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 629ECAA61EF7858100131144;
+					};
+					629ECAC21EF7858100131144 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = TF8Z26XE78;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 629ECAA61EF7858100131144;
+					};
+				};
+			};
+			buildConfigurationList = 629ECAA21EF7858100131144 /* Build configuration list for PBXProject "MLogger OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 629ECA9E1EF7858100131144;
+			productRefGroup = 629ECAA81EF7858100131144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				629ECAA61EF7858100131144 /* MLogger OSX */,
+				629ECAB71EF7858100131144 /* MLogger OSXTests */,
+				629ECAC21EF7858100131144 /* MLogger OSXUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		629ECAA51EF7858100131144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629ECAAF1EF7858100131144 /* Assets.xcassets in Resources */,
+				629ECAB21EF7858100131144 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629ECAB61EF7858100131144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629ECAC11EF7858100131144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		629ECAA31EF7858100131144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629ECAAD1EF7858100131144 /* ViewController.swift in Sources */,
+				629ECAAB1EF7858100131144 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629ECAB41EF7858100131144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629ECABD1EF7858100131144 /* MLogger_OSXTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629ECABF1EF7858100131144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629ECAC81EF7858100131144 /* MLogger_OSXUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		629ECABA1EF7858100131144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 629ECAA61EF7858100131144 /* MLogger OSX */;
+			targetProxy = 629ECAB91EF7858100131144 /* PBXContainerItemProxy */;
+		};
+		629ECAC51EF7858100131144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 629ECAA61EF7858100131144 /* MLogger OSX */;
+			targetProxy = 629ECAC41EF7858100131144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		629ECAB01EF7858100131144 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629ECAB11EF7858100131144 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		629ECACA1EF7858100131144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		629ECACB1EF7858100131144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		629ECACD1EF7858100131144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TF8Z26XE78;
+				INFOPLIST_FILE = "MLogger OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CarbonylGroup.MLogger-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		629ECACE1EF7858100131144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TF8Z26XE78;
+				INFOPLIST_FILE = "MLogger OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CarbonylGroup.MLogger-OSX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		629ECAD01EF7858100131144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TF8Z26XE78;
+				INFOPLIST_FILE = "MLogger OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CarbonylGroup.MLogger-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLogger OSX.app/Contents/MacOS/MLogger OSX";
+			};
+			name = Debug;
+		};
+		629ECAD11EF7858100131144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TF8Z26XE78;
+				INFOPLIST_FILE = "MLogger OSXTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CarbonylGroup.MLogger-OSXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MLogger OSX.app/Contents/MacOS/MLogger OSX";
+			};
+			name = Release;
+		};
+		629ECAD31EF7858100131144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TF8Z26XE78;
+				INFOPLIST_FILE = "MLogger OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CarbonylGroup.MLogger-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MLogger OSX";
+			};
+			name = Debug;
+		};
+		629ECAD41EF7858100131144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TF8Z26XE78;
+				INFOPLIST_FILE = "MLogger OSXUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "CarbonylGroup.MLogger-OSXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "MLogger OSX";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		629ECAA21EF7858100131144 /* Build configuration list for PBXProject "MLogger OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629ECACA1EF7858100131144 /* Debug */,
+				629ECACB1EF7858100131144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629ECACC1EF7858100131144 /* Build configuration list for PBXNativeTarget "MLogger OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629ECACD1EF7858100131144 /* Debug */,
+				629ECACE1EF7858100131144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		629ECACF1EF7858100131144 /* Build configuration list for PBXNativeTarget "MLogger OSXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629ECAD01EF7858100131144 /* Debug */,
+				629ECAD11EF7858100131144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		629ECAD21EF7858100131144 /* Build configuration list for PBXNativeTarget "MLogger OSXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629ECAD31EF7858100131144 /* Debug */,
+				629ECAD41EF7858100131144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629ECA9F1EF7858100131144 /* Project object */;
+}
