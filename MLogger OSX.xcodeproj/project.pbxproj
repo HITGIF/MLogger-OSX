@@ -190,7 +190,7 @@
 				TargetAttributes = {
 					629ECAA61EF7858100131144 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = TF8Z26XE78;
+						DevelopmentTeam = MPPUFL3L6R;
 						ProvisioningStyle = Automatic;
 					};
 					629ECAB71EF7858100131144 = {
@@ -403,7 +403,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TF8Z26XE78;
+				DEVELOPMENT_TEAM = MPPUFL3L6R;
 				INFOPLIST_FILE = "MLogger OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CarbonylGroup.MLogger-OSX";
@@ -417,7 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TF8Z26XE78;
+				DEVELOPMENT_TEAM = MPPUFL3L6R;
 				INFOPLIST_FILE = "MLogger OSX/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "CarbonylGroup.MLogger-OSX";
@@ -507,6 +507,7 @@
 				629ECACE1EF7858100131144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		629ECACF1EF7858100131144 /* Build configuration list for PBXNativeTarget "MLogger OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +516,7 @@
 				629ECAD11EF7858100131144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		629ECAD21EF7858100131144 /* Build configuration list for PBXNativeTarget "MLogger OSXUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +525,7 @@
 				629ECAD41EF7858100131144 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
