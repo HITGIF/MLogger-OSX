@@ -33,12 +33,20 @@ class ViewController: NSViewController {
         loginOnStart();
     }
     
-    @IBAction func buttonHandler(_ sender: AnyObject) {
+    @IBAction func loginButtonHandler(_ sender: AnyObject) {
         
         self.username = username_field.stringValue
         self.password = password_field.stringValue
         sendLoginPost();
         rememberPassword(state: remember_switch.state);
+    }
+    
+    @IBAction func restartButtonHandler(_ sender: Any) {
+        if let path = Bundle.main.resourceURL?.deletingLastPathComponent().deletingLastPathComponent().absoluteString {
+            NSLog("restart \(path)")
+            _ = Process.launchedProcess(launchPath: "/usr/bin/open", arguments: [path])
+            NSApp.terminate(self)
+        }
     }
     
     @IBAction func rememberHandler(_ sender: Any) {
@@ -118,7 +126,7 @@ class ViewController: NSViewController {
             } else {
                 if (response as? HTTPURLResponse)?.statusCode == 200 {
                     let res = String(data: data!, encoding: .utf8)
-                    if (res?.contains("认证成功！"))! {
+                    if (res?.contains("认证成功！"))! || (res?.contains("已登录"))! {
                         if yesYouCanQuitOnSuccess {
                             NSApp.terminate(self)
                         } else {

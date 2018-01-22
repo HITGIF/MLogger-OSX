@@ -702,17 +702,6 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
-                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B9W-01-I5o">
-                                        <rect key="frame" x="200" y="63" width="81" height="32"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                        <buttonCell key="cell" type="push" title="Login" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Xz6-kr-PBj">
-                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                            <font key="font" metaFont="system"/>
-                                        </buttonCell>
-                                        <connections>
-                                            <action selector="buttonHandler:" target="XfG-lQ-9wD" id="GUR-BI-sCw"/>
-                                        </connections>
-                                    </button>
                                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dwz-a0-Pyl">
                                         <rect key="frame" x="94" y="157" width="292" height="22"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -742,7 +731,7 @@
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="rememberHandler:" target="XfG-lQ-9wD" id="hOH-EJ-4GE"/>
+                                            <action selector="rememberHandler:" target="XfG-lQ-9wD" id="I0Z-Sj-Vjf"/>
                                         </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kMf-eg-gKA">
@@ -751,10 +740,10 @@
                                         <buttonCell key="cell" type="check" title="Login at start" bezelStyle="regularSquare" imagePosition="left" inset="2" id="ATe-MB-8Qo">
                                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                             <font key="font" metaFont="system"/>
-                                            <connections>
-                                                <action selector="loginStartSwitchHandler:" target="XfG-lQ-9wD" id="3zM-hE-axX"/>
-                                            </connections>
                                         </buttonCell>
+                                        <connections>
+                                            <action selector="loginStartSwitchHandler:" target="XfG-lQ-9wD" id="3IK-M6-EUE"/>
+                                        </connections>
                                     </button>
                                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oWR-Vr-lVh">
                                         <rect key="frame" x="276" y="32" width="112" height="18"/>
@@ -764,7 +753,7 @@
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
                                         <connections>
-                                            <action selector="quitSuccessHandler:" target="XfG-lQ-9wD" id="Ryz-7C-EVS"/>
+                                            <action selector="quitSuccessHandler:" target="XfG-lQ-9wD" id="SvQ-NX-08X"/>
                                         </connections>
                                     </button>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HMN-er-hKn">
@@ -776,6 +765,28 @@
                                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>
                                     </textField>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0qm-GQ-AII">
+                                        <rect key="frame" x="301" y="63" width="96" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Relaunch" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bFn-jM-snP">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="restartButtonHandler:" target="XfG-lQ-9wD" id="Sgv-aA-1j0"/>
+                                        </connections>
+                                    </button>
+                                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B9W-01-I5o">
+                                        <rect key="frame" x="204" y="63" width="87" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Login" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Xz6-kr-PBj">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="loginButtonHandler:" target="XfG-lQ-9wD" id="GUR-BI-sCw"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </view>
                         </subviews>
