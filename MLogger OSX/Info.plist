@@ -17,9 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.0</string>
+	<string>2.0.1</string>
 	<key>CFBundleVersion</key>
-	<string>Sun Jan 14 19:56:55 CST 2018</string>
+	<string>Sun Apr  8 10:42:24 CST 2018</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
 	<key>NSHumanReadableCopyright</key>

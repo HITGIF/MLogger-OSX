@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MLogger OSX</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>x86_64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE</string>
+				<key>dateExpires</key>
+				<string>2023/04/09</string>
+				<key>type</key>
+				<string>Developer ID Application</string>
+			</dict>
+			<key>name</key>
+			<string>MLogger OSX.app</string>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>MPPUFL3L6R</string>
+				<key>name</key>
+				<string>Anhai Wang</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

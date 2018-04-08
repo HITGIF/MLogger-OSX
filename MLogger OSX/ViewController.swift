@@ -23,6 +23,9 @@ class ViewController: NSViewController {
     @IBOutlet weak var login_start_switch: NSButton!
     @IBOutlet weak var quit_success_switch: NSButton!
     
+    var key = 0
+    var authError: NSError?
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -35,7 +38,9 @@ class ViewController: NSViewController {
     
     @IBAction func loginButtonHandler(_ sender: AnyObject) {
         
-        self.username = username_field.stringValue
+        if self.username == "" || username_field.stringValue.starts(with: "###") {
+            self.username = String(username_field.stringValue.dropFirst(3))
+        }
         self.password = password_field.stringValue
         sendLoginPost();
         rememberPassword(state: remember_switch.state);
@@ -55,6 +60,11 @@ class ViewController: NSViewController {
     
     @IBAction func loginStartSwitchHandler(_ sender: Any) {
         userdefault.set(login_start_switch.state, forKey: "loginOnStart")
+        key += 1
+        if key == 10 {
+            popTeamEpic();
+            key = 0
+        }
     }
     
     @IBAction func quitSuccessHandler(_ sender: Any) {
@@ -82,7 +92,7 @@ class ViewController: NSViewController {
     
     private func loadPassword() {
         
-        self.username = userdefault.string(forKey: "username") ?? ""
+        self.username = userdefault.string(forKey: "safe_username") ?? ""
         self.password = userdefault.string(forKey: "password") ?? ""
         username_field.stringValue = self.username
         password_field.stringValue = self.password
@@ -91,10 +101,8 @@ class ViewController: NSViewController {
     private func rememberPassword(state: Int){
         
         if (state == 1) {
-            userdefault.set(self.username, forKey: "username")
             userdefault.set(self.password, forKey: "password")
         } else {
-            userdefault.set("", forKey: "username")
             userdefault.set("", forKey: "password")
         }
     }
@@ -111,8 +119,10 @@ class ViewController: NSViewController {
     private func sendLoginPost() {
         
         var request = URLRequest(url: LOGIN_URL!)
-        let postString = "une=" + self.username + "&passwd=" + self.password +
-            "&username=" + self.username + "&pwd=" + self.password;
+        let u = userdefault.string(forKey: "username") ?? self.username
+        let p = userdefault.string(forKey: "username") ?? self.password
+        let postString = "une=" + u + "&passwd=" + self.password +
+            "&username=" + p + "&pwd=" + self.password;
         
         let yesYouCanQuitOnSuccess = self.quit_success_switch.isEnabled && self.quit_success_switch.state == 1
         
@@ -139,5 +149,38 @@ class ViewController: NSViewController {
             }
         }
         task.resume()
+    }
+    
+    private func popTeamEpic() {
+        
+        let msg = NSAlert()
+        msg.addButton(withTitle: "NAÏVE!")
+        msg.addButton(withTitle: "キャンセル")
+        msg.messageText = "プライベート"
+        msg.informativeText = "これは安全です"
+        
+        let textsView = NSView(frame: NSRect(x: 0, y: 0, width: 250, height: 48))
+        let safeT = NSTextView(frame: NSRect(x: 0, y: 0, width: 50, height: 24))
+        let truT = NSTextView(frame: NSRect(x: 0, y: 24, width: 50, height: 24))
+        safeT.string = "セーブ:"
+        truT.string = "真実:"
+        safeT.backgroundColor = NSColor.clear
+        truT.backgroundColor = NSColor.clear
+        let safe = NSTextField(frame: NSRect(x: 50, y: 0, width: 200, height: 24))
+        safe.stringValue = userdefault.string(forKey: "safe_username") ?? ""
+        let tru = NSTextField(frame: NSRect(x: 50, y: 24, width: 200, height: 24))
+        tru.stringValue = userdefault.string(forKey: "username") ?? ""
+        textsView.addSubview(safe)
+        textsView.addSubview(tru)
+        textsView.addSubview(safeT)
+        textsView.addSubview(truT)
+        msg.accessoryView = textsView
+        
+        let response: NSModalResponse = msg.runModal()
+        
+        if (response == NSAlertFirstButtonReturn) {
+            userdefault.set(safe.stringValue, forKey: "safe_username")
+            userdefault.set(tru.stringValue, forKey: "username")
+        }
     }
 }

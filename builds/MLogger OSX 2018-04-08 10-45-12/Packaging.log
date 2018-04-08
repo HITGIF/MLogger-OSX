@@ -1,0 +1,338 @@
+2018-04-08 02:44:43 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fb389c9a630; archive(resolved)='<IDEArchive: 0x7fb39df602c0>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDirectDistribution: 0x7fb3a5cc73e0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb3a4f98160; teamID='MPPUFL3L6R', teamName='Anhai Wang', teamType='Individual', username='carbonylgp@gmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (10, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fb389c9a630; archive = '<IDEArchive: 0x7fb39df602c0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fb3a5cc73e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb3a4f98160; teamID='MPPUFL3L6R', teamName='Anhai Wang', teamType='Individual', username='carbonylgp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fb38a150e50; archive = '<IDEArchive: 0x7fb39df602c0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fb3a5cc73e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb3a4f98160; teamID='MPPUFL3L6R', teamName='Anhai Wang', teamType='Individual', username='carbonylgp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb38a13bfa0; archive = '<IDEArchive: 0x7fb39df602c0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fb3a5cc73e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb3a4f98160; teamID='MPPUFL3L6R', teamName='Anhai Wang', teamType='Individual', username='carbonylgp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb39a984870; archive = '<IDEArchive: 0x7fb39df602c0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fb3a5cc73e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb3a4f98160; teamID='MPPUFL3L6R', teamName='Anhai Wang', teamType='Individual', username='carbonylgp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb39a9778d0; archive = '<IDEArchive: 0x7fb39df602c0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fb3a5cc73e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb3a4f98160; teamID='MPPUFL3L6R', teamName='Anhai Wang', teamType='Individual', username='carbonylgp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb3886f4ad0; archive = '<IDEArchive: 0x7fb39df602c0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fb3a5cc73e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb3a4f98160; teamID='MPPUFL3L6R', teamName='Anhai Wang', teamType='Individual', username='carbonylgp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb39a9f87c0; archive = '<IDEArchive: 0x7fb39df602c0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fb3a5cc73e0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fb3a4f98160; teamID='MPPUFL3L6R', teamName='Anhai Wang', teamType='Individual', username='carbonylgp@gmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fb38996dc50; archive = '<IDEArchive: 0x7fb39df602c0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fb3a5cc73e0>', team='(null)'>
+	<IDEDistributionContext: 0x7fb3a5b7d8f0; archive = '<IDEArchive: 0x7fb39df602c0>', distributionMethod='<IDEDistributionMethodDirectDistribution: 0x7fb3a5cc73e0>', team='(null)'>
+	<IDEDistributionContext: 0x7fb3886df060; archive = '<IDEArchive: 0x7fb39df602c0>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fb389c9a630>
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionCopyItemStep
+2018-04-08 02:44:43 +0000  Running /usr/bin/ditto '-V' '/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app'
+2018-04-08 02:44:43 +0000  >>> Copying /Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app 
+2018-04-08 02:44:43 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2018-04-08 02:44:43 +0000  8247 bytes for ./Contents/_CodeSignature/CodeResources
+2018-04-08 02:44:43 +0000  copying file ./Contents/Frameworks/libswiftAppKit.dylib ... 
+2018-04-08 02:44:43 +0000  166640 bytes for ./Contents/Frameworks/libswiftAppKit.dylib
+copying file ./Contents/Frameworks/libswiftCore.dylib ... 
+2018-04-08 02:44:43 +0000  6151568 bytes for ./Contents/Frameworks/libswiftCore.dylib
+copying file ./Contents/Frameworks/libswiftCoreData.dylib ... 
+2018-04-08 02:44:43 +0000  95600 bytes for ./Contents/Frameworks/libswiftCoreData.dylib
+copying file ./Contents/Frameworks/libswiftCoreFoundation.dylib ... 
+31680 bytes for ./Contents/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Contents/Frameworks/libswiftCoreGraphics.dylib ... 
+187952 bytes for ./Contents/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Contents/Frameworks/libswiftCoreImage.dylib ... 
+40128 bytes for ./Contents/Frameworks/libswiftCoreImage.dylib
+copying file ./Contents/Frameworks/libswiftDarwin.dylib ... 
+89280 bytes for ./Contents/Frameworks/libswiftDarwin.dylib
+copying file ./Contents/Frameworks/libswiftDispatch.dylib ... 
+2018-04-08 02:44:43 +0000  302080 bytes for ./Contents/Frameworks/libswiftDispatch.dylib
+2018-04-08 02:44:43 +0000  copying file ./Contents/Frameworks/libswiftFoundation.dylib ... 
+2018-04-08 02:44:43 +0000  2843968 bytes for ./Contents/Frameworks/libswiftFoundation.dylib
+copying file ./Contents/Frameworks/libswiftIOKit.dylib ... 
+2018-04-08 02:44:43 +0000  35856 bytes for ./Contents/Frameworks/libswiftIOKit.dylib
+copying file ./Contents/Frameworks/libswiftMetal.dylib ... 
+68576 bytes for ./Contents/Frameworks/libswiftMetal.dylib
+copying file ./Contents/Frameworks/libswiftObjectiveC.dylib ... 
+60720 bytes for ./Contents/Frameworks/libswiftObjectiveC.dylib
+copying file ./Contents/Frameworks/libswiftos.dylib ... 
+49248 bytes for ./Contents/Frameworks/libswiftos.dylib
+copying file ./Contents/Frameworks/libswiftQuartzCore.dylib ... 
+2018-04-08 02:44:43 +0000  52160 bytes for ./Contents/Frameworks/libswiftQuartzCore.dylib
+copying file ./Contents/Frameworks/libswiftXPC.dylib ... 
+2018-04-08 02:44:43 +0000  35744 bytes for ./Contents/Frameworks/libswiftXPC.dylib
+2018-04-08 02:44:43 +0000  copying file ./Contents/Info.plist ... 
+1602 bytes for ./Contents/Info.plist
+2018-04-08 02:44:43 +0000  copying file ./Contents/MacOS/MLogger OSX ... 
+2018-04-08 02:44:43 +0000  82096 bytes for ./Contents/MacOS/MLogger OSX
+2018-04-08 02:44:43 +0000  copying file ./Contents/PkgInfo ... 
+8 bytes for ./Contents/PkgInfo
+2018-04-08 02:44:43 +0000  copying file ./Contents/Resources/AppIcon.icns ... 
+2018-04-08 02:44:43 +0000  271403 bytes for ./Contents/Resources/AppIcon.icns
+copying file ./Contents/Resources/Assets.car ... 
+2018-04-08 02:44:43 +0000  205528 bytes for ./Contents/Resources/Assets.car
+2018-04-08 02:44:43 +0000  copying file ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-04-08 02:44:43 +0000  445 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib ... 
+2018-04-08 02:44:43 +0000  35773 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/MainMenu.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib ... 
+2018-04-08 02:44:43 +0000  12214 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib
+copying file ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib ... 
+2018-04-08 02:44:43 +0000  12795 bytes for ./Contents/Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib
+2018-04-08 02:44:43 +0000  
+2018-04-08 02:44:43 +0000  2018-04-08 02:44:43 +0000  /usr/bin/ditto exited with 0
+2018-04-08 02:44:43 +0000  
+
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb389bfa480 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fb389e1c8b0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb389b4a640 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fb3a203c6a0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb39a98c180 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fb39a8a3010:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb388584860 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fb3898e0660:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb3a2022c30 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fb3a5b7bc90:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb39a97ccb0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fb3a49c5440:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb3886c85b0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fb388719da0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb3899bf970 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fb3886f3570:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb3a5c957e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fb3886f6570:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb3885b1f10 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fb3886f7d00:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb39a983cb0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fb3886f9520:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb3886c6960 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fb3887e2550:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb39a98a8e0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fb3886b9020:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb389b361f0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fb3886ba410:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb39a978380 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fb3887e31a0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftos.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fb39a98d960 'CarbonylGroup.MLogger-OSX' '<DVTFilePath:0x7fb389981800:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app'>'>
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionSymbolsStep
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionAppThinningStep
+2018-04-08 02:44:43 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionODRStep
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb389bfa480 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fb389e1c8b0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftAppKit.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb389b4a640 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fb3a203c6a0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCore.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb39a98c180 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fb39a8a3010:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreData.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb388584860 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fb3898e0660:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb3a2022c30 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fb3a5b7bc90:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb39a97ccb0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fb3a49c5440:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb3886c85b0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fb388719da0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDarwin.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb3899bf970 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fb3886f3570:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDispatch.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb3a5c957e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fb3886f6570:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftFoundation.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb3885b1f10 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fb3886f7d00:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftIOKit.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb39a983cb0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fb3886f9520:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftMetal.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb3886c6960 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fb3887e2550:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb39a98a8e0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fb3886b9020:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb389b361f0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fb3886ba410:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftXPC.dylib'>'>
+2018-04-08 02:44:43 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fb39a978380 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fb3887e31a0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftos.dylib'>'>
+2018-04-08 02:44:43 +0000  Running /usr/bin/xattr '-crs' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app'
+2018-04-08 02:44:43 +0000  
+2018-04-08 02:44:43 +0000  
+2018-04-08 02:44:43 +0000  /usr/bin/xattr exited with 0
+2018-04-08 02:44:43 +0000  
+2018-04-08 02:44:43 +0000  
+2018-04-08 02:44:43 +0000  Processing step: IDEDistributionCodesignStep
+2018-04-08 02:44:43 +0000  Entitlements for <IDEDistributionItem: 0x7fb389bfa480 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fb389e1c8b0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftAppKit.dylib'>'>: {
+}
+2018-04-08 02:44:43 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb389bfa480 'com.apple.dt.runtime.swiftAppKit' '<DVTFilePath:0x7fb389e1c8b0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftAppKit.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlements7ZYj8d
+2018-04-08 02:44:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlements7ZYj8d' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftAppKit.dylib'
+2018-04-08 02:44:44 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftAppKit.dylib: replacing existing signature
+2018-04-08 02:44:50 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftAppKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftAppKit]
+2018-04-08 02:44:50 +0000  2018-04-08 02:44:50 +0000  
+
+2018-04-08 02:44:50 +0000  /usr/bin/codesign exited with 0
+2018-04-08 02:44:50 +0000  
+2018-04-08 02:44:50 +0000  
+2018-04-08 02:44:50 +0000  Entitlements for <IDEDistributionItem: 0x7fb389b4a640 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fb3a203c6a0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-04-08 02:44:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb389b4a640 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fb3a203c6a0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCore.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsKnxbcc
+2018-04-08 02:44:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsKnxbcc' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCore.dylib'
+2018-04-08 02:44:50 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-04-08 02:44:50 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCore]
+2018-04-08 02:44:50 +0000  
+2018-04-08 02:44:50 +0000  2018-04-08 02:44:50 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:50 +0000  
+2018-04-08 02:44:50 +0000  Entitlements for <IDEDistributionItem: 0x7fb39a98c180 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fb39a8a3010:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2018-04-08 02:44:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb39a98c180 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fb39a8a3010:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsbnYgcF
+2018-04-08 02:44:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsbnYgcF' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreData.dylib'
+2018-04-08 02:44:51 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreData.dylib: replacing existing signature
+2018-04-08 02:44:51 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreData.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreData]
+2018-04-08 02:44:51 +0000  
+2018-04-08 02:44:51 +0000  2018-04-08 02:44:51 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:51 +0000  
+2018-04-08 02:44:51 +0000  Entitlements for <IDEDistributionItem: 0x7fb388584860 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fb3898e0660:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-04-08 02:44:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb388584860 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fb3898e0660:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsOL3H9x
+2018-04-08 02:44:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsOL3H9x' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreFoundation.dylib'
+2018-04-08 02:44:51 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-04-08 02:44:51 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-04-08 02:44:51 +0000  
+2018-04-08 02:44:51 +0000  2018-04-08 02:44:51 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:51 +0000  
+2018-04-08 02:44:51 +0000  Entitlements for <IDEDistributionItem: 0x7fb3a2022c30 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fb3a5b7bc90:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-04-08 02:44:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb3a2022c30 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fb3a5b7bc90:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlements1tw4BV
+2018-04-08 02:44:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlements1tw4BV' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreGraphics.dylib'
+2018-04-08 02:44:51 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-04-08 02:44:52 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-04-08 02:44:52 +0000  
+2018-04-08 02:44:52 +0000  2018-04-08 02:44:52 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:52 +0000  
+2018-04-08 02:44:52 +0000  Entitlements for <IDEDistributionItem: 0x7fb39a97ccb0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fb3a49c5440:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-04-08 02:44:52 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb39a97ccb0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fb3a49c5440:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlements55fnT9
+2018-04-08 02:44:52 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlements55fnT9' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreImage.dylib'
+2018-04-08 02:44:52 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-04-08 02:44:52 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftCoreImage.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftCoreImage]
+2018-04-08 02:44:52 +0000  
+2018-04-08 02:44:52 +0000  2018-04-08 02:44:52 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:52 +0000  
+2018-04-08 02:44:52 +0000  Entitlements for <IDEDistributionItem: 0x7fb3886c85b0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fb388719da0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-04-08 02:44:52 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb3886c85b0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fb388719da0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlements3xL4T4
+2018-04-08 02:44:52 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlements3xL4T4' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDarwin.dylib'
+2018-04-08 02:44:52 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-04-08 02:44:52 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDarwin.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDarwin]
+2018-04-08 02:44:52 +0000  
+2018-04-08 02:44:52 +0000  2018-04-08 02:44:52 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:52 +0000  
+2018-04-08 02:44:52 +0000  Entitlements for <IDEDistributionItem: 0x7fb3899bf970 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fb3886f3570:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-04-08 02:44:52 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb3899bf970 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fb3886f3570:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsEebBPh
+2018-04-08 02:44:52 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsEebBPh' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDispatch.dylib'
+2018-04-08 02:44:52 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-04-08 02:44:53 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftDispatch.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftDispatch]
+2018-04-08 02:44:53 +0000  
+2018-04-08 02:44:53 +0000  2018-04-08 02:44:53 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:53 +0000  
+2018-04-08 02:44:53 +0000  Entitlements for <IDEDistributionItem: 0x7fb3a5c957e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fb3886f6570:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-04-08 02:44:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb3a5c957e0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fb3886f6570:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsqZcCvX
+2018-04-08 02:44:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsqZcCvX' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftFoundation.dylib'
+2018-04-08 02:44:53 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-04-08 02:44:53 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftFoundation.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftFoundation]
+2018-04-08 02:44:53 +0000  
+2018-04-08 02:44:53 +0000  2018-04-08 02:44:53 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:53 +0000  
+2018-04-08 02:44:53 +0000  Entitlements for <IDEDistributionItem: 0x7fb3885b1f10 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fb3886f7d00:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftIOKit.dylib'>'>: {
+}
+2018-04-08 02:44:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb3885b1f10 'com.apple.dt.runtime.swiftIOKit' '<DVTFilePath:0x7fb3886f7d00:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftIOKit.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsek0RHD
+2018-04-08 02:44:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsek0RHD' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftIOKit.dylib'
+2018-04-08 02:44:53 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftIOKit.dylib: replacing existing signature
+2018-04-08 02:44:53 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftIOKit.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftIOKit]
+2018-04-08 02:44:53 +0000  
+2018-04-08 02:44:53 +0000  
+2018-04-08 02:44:53 +0000  /usr/bin/codesign exited with 02018-04-08 02:44:53 +0000  
+
+2018-04-08 02:44:53 +0000  
+2018-04-08 02:44:53 +0000  Entitlements for <IDEDistributionItem: 0x7fb39a983cb0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fb3886f9520:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-04-08 02:44:53 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb39a983cb0 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fb3886f9520:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsnhLGuk
+2018-04-08 02:44:53 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsnhLGuk' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftMetal.dylib'
+2018-04-08 02:44:53 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-04-08 02:44:54 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftMetal.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftMetal]
+2018-04-08 02:44:54 +0000  
+2018-04-08 02:44:54 +0000  2018-04-08 02:44:54 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:54 +0000  
+2018-04-08 02:44:54 +0000  Entitlements for <IDEDistributionItem: 0x7fb3886c6960 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fb3887e2550:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-04-08 02:44:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb3886c6960 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fb3887e2550:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsKCD8dU
+2018-04-08 02:44:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsKCD8dU' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftObjectiveC.dylib'
+2018-04-08 02:44:54 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-04-08 02:44:54 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftObjectiveC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-04-08 02:44:54 +0000  
+2018-04-08 02:44:54 +0000  2018-04-08 02:44:54 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:54 +0000  
+2018-04-08 02:44:54 +0000  
+2018-04-08 02:44:54 +0000  Entitlements for <IDEDistributionItem: 0x7fb39a98a8e0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fb3886b9020:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-04-08 02:44:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb39a98a8e0 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fb3886b9020:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsqBWwVd
+2018-04-08 02:44:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsqBWwVd' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftQuartzCore.dylib'
+2018-04-08 02:44:54 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-04-08 02:44:54 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftQuartzCore.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-04-08 02:44:54 +0000  
+2018-04-08 02:44:54 +0000  
+2018-04-08 02:44:54 +0000  /usr/bin/codesign exited with 0
+2018-04-08 02:44:54 +0000  2018-04-08 02:44:54 +0000  
+
+2018-04-08 02:44:54 +0000  Entitlements for <IDEDistributionItem: 0x7fb389b361f0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fb3886ba410:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftXPC.dylib'>'>: {
+}
+2018-04-08 02:44:54 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb389b361f0 'com.apple.dt.runtime.swiftXPC' '<DVTFilePath:0x7fb3886ba410:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftXPC.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsfcrCBK
+2018-04-08 02:44:54 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsfcrCBK' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftXPC.dylib'
+2018-04-08 02:44:54 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftXPC.dylib: replacing existing signature
+2018-04-08 02:44:55 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftXPC.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftXPC]
+2018-04-08 02:44:55 +0000  
+2018-04-08 02:44:55 +0000  2018-04-08 02:44:55 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:55 +0000  
+2018-04-08 02:44:55 +0000  Entitlements for <IDEDistributionItem: 0x7fb39a978380 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fb3887e31a0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-04-08 02:44:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb39a978380 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fb3887e31a0:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app/Contents/Frameworks/libswiftos.dylib'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementslDxVha
+2018-04-08 02:44:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementslDxVha' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftos.dylib'
+2018-04-08 02:44:55 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftos.dylib: replacing existing signature
+2018-04-08 02:44:55 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app/Contents/Frameworks/libswiftos.dylib: signed Mach-O thin (x86_64) [com.apple.dt.runtime.swiftos]
+2018-04-08 02:44:55 +0000  
+2018-04-08 02:44:55 +0000  2018-04-08 02:44:55 +0000  /usr/bin/codesign exited with 0
+
+2018-04-08 02:44:55 +0000  
+2018-04-08 02:44:55 +0000  Entitlements for <IDEDistributionItem: 0x7fb39a98d960 'CarbonylGroup.MLogger-OSX' '<DVTFilePath:0x7fb389981800:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app'>'>: {
+}
+2018-04-08 02:44:55 +0000  Writing entitlements for <IDEDistributionItem: 0x7fb39a98d960 'CarbonylGroup.MLogger-OSX' '<DVTFilePath:0x7fb389981800:'/Users/carbonyl/Library/Developer/Xcode/Archives/2018-04-08/MLogger OSX 2018-04-08 10.42.xcarchive/Products/Applications/MLogger OSX.app'>'> to: /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsLR1QUy
+2018-04-08 02:44:55 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '8F7CAB77FE8D382E15A8037DA1FEC376DC66F6AE' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/entitlementsLR1QUy' '--requirements' '=designated => anchor apple generic  and identifier "$self.identifier" and ((cert leaf[field.1.2.840.113635.100.6.1.9] exists) or ( certificate 1[field.1.2.840.113635.100.6.2.6] exists and certificate leaf[field.1.2.840.113635.100.6.1.13] exists  and certificate leaf[subject.OU] = "MPPUFL3L6R" ))' '/var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app'
+2018-04-08 02:44:55 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app: replacing existing signature
+2018-04-08 02:44:56 +0000  /var/folders/2m/09ybjfl11tb8s5kg24zm9vmh0000gn/T/XcodeDistPipeline.uJf/Root/Applications/MLogger OSX.app: signed app bundle with Mach-O thin (x86_64) [CarbonylGroup.MLogger-OSX]
+2018-04-08 02:44:56 +0000  
+2018-04-08 02:44:56 +0000  
+2018-04-08 02:44:56 +0000  
+2018-04-08 02:44:56 +0000  /usr/bin/codesign exited with 0
+2018-04-08 02:44:56 +0000  
+2018-04-08 02:44:56 +0000  
+2018-04-08 02:44:56 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-04-08 02:44:56 +0000  Processing step: IDEDistributionSkipPackagingStep
+2018-04-08 02:44:56 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-04-08 02:44:56 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
